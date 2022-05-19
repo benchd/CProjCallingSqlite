@@ -1,0 +1,1 @@
+gcc -o insert_data ./sqlite3.c ./insert_data.c

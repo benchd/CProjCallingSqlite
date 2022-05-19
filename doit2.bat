@@ -1,0 +1,1 @@
+gcc -o version2 ./sqlite3.c ./version2.c
