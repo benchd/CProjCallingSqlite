@@ -1,4 +1,4 @@
-#include <sqlite3.h>
+#include "sqlite3.h"
 #include <stdio.h>
 
 int main(void) {
@@ -7,7 +7,7 @@ int main(void) {
     char *err_msg = 0;
     sqlite3_stmt *res;
     
-    int rc = sqlite3_open("test.db", &db);
+    int rc = sqlite3_open("CProjCallingSQLite.db", &db);
     
     if (rc != SQLITE_OK) {
         
